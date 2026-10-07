@@ -73,7 +73,7 @@ Each JSON file becomes one lesson, linked to its related data:
 
 Relationship in short: `lesson` → `lesson_version` → `lesson_review` → (everything else).
 
-> **Note:** the repository does not currently include the SQL schema (`CREATE TABLE` scripts). Create `CurriculumDB` and the tables above before the first run. Adding a `database/schema.sql` is recommended.
+> **Note:** Database setup: The project uses SQL Server for persistent storage. The database schema is intentionally not included because it is specific to the source environment. To run the project, configure a compatible database and adapt the repository mappings to your schema.
 
 ## Requirements
 
